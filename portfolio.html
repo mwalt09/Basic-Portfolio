@@ -1,48 +1,71 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 	<head>
 		<meta charset="UTF-8">
-		<title>Mikael Walters Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<title>Portfolio</title>
 	</head>
-	<body>
+
+	<body>	
 		<header>
 			<h1>Mikael Walters</h1>
 		</header>
+		
+			<nav>
+				<li id="nav-1"><a href="index.html">About</a></li>
+				<li id="nav-2"><a href="portfolio.html">Portfolio</a></li>
+				<li id="nav-3"><a href="contact.html">Contact</a></li>
+			</nav>
 
-		<nav>
-			<ul>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
+		<div class="clear"></div>
 
-		<div>
-			<section>
-				<h2>Portfolio</h2>
+		<div class="container">
+			<div class="portfolio">
+				<section class="portfolio-items">
 
-				<ul>
-					<li><a href="#">Hangman</a></li>
-					<li><a href="#">RPG Game</a></li>
-					<li><a href="#">Trivia Game</a></li>
-					<li><a href="#">Rutgers Info Widget</a></li>
-					<li><a href="#">Rock Paper Scissors</a></li>
-				</ul>
-			</section>
+					<div class="portfolioImages">
+						<div class="imagesWithinPortfolio">
+							<a href="#"><img src="assets/images/Hangman.jpeg" alt="hangman"></a>
+							<div id="imageBox1">Hangman</div>
+						</div>
 
-			<section id="social-media">
-				<h2>Connect with Me</h2>
+						<div class="imagesWithinPortfolio">
+							<a href="#"><img src="assets/images/RPG_Game.jpeg" alt="rpg game"></a>
+							<div id="imageBox2">RPG Game</div>
+						</div>
+						<div class="imagesWithinPortfolio">
+							<a href="#"><img src="assets/images/Trivia.jpeg" alt="trivia"></a>
+							<div id="imageBox3">Trivia</div>
+						</div>
+						<div class="imagesWithinPortfolio">
+							<a href="#"><img src="assets/images/Widget.png" alt="widget"></a>
+							<div id="imageBox4">Widget</div>
+						</div>
+						<div class="imagesWithinPortfolio">
+							<a href="#"><img src="assets/images/RPS.jpeg" alt="rock paper scissors"></a>
+							<div id="imageBox5">Rock Paper Scissors</div>
+						</div>
+					</div>
+				</section>
+			</div>
 
-				<ul>
-					<li><a href="https://github.com/mwalt09" target="_blank"><img src="assets/images/GitHub-Mark-64px.png"</a></li>
-					<li><a href="https://www.linkedin.com/in/mikaelwalters/" target="_blank"><img src="assets/images/In-2C-66px-R.png"></a></li>
-					<li><a href="https://stackoverflow.com/users/7881551/mwalt09?tab=profile" target="_blank"><img src="assets/images/so-icon.png"></a></li>
-				</ul>
-			</section>
+			<div class="connect">
+				<section class="social-media">
+					<h2>Connect with Me</h2>
+
+					<ul class="logos">
+						<li id="one"><a href="https://github.com/mwalt09" target="_blank"><img src="assets/images/GitHub-Mark-64px.png" alt="github link"></a></li>
+						<li id="two"><a href="https://www.linkedin.com/in/mikaelwalters/" target="_blank"><img src="assets/images/In-2C-66px-R.png" alt="linkedin link"></a></li>				 
+						<li id="three"><a href="https://stackoverflow.com/users/7881551/mwalt09?tab=profile" target="_blank"><img src="assets/images/so-icon.png" alt="stackoverflow link"></a></li>
+					</ul>
+				</section>
+			</div>
 		</div>
 
-			<footer>
-				&#9400 Copyright 2017 Mikael Walters
-			</footer>
+		<footer>
+			&#9400; Copyright 2017 Mikael Walters
+		</footer>
 	</body>
 </html>

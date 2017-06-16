@@ -1,47 +1,63 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 	<head>
 		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<title>About Mikael Walters</title>
 	</head>
-	<body>
 
+	<body>	
 		<header>
 			<h1>Mikael Walters</h1>
 		</header>
-
+		
 		<nav>
-			<ul>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
+			<li id="nav-1"><a href="index.html">About</a></li>
+			<li id="nav-2"><a href="portfolio.html">Portfolio</a></li>
+			<li id="nav-3"><a href="contact.html">Contact</a></li>
 		</nav>
 
+		<div class="clear"></div>
+
 		<div class="container">
-			<section id="about-me">
+			<div class="about-me-wrap">
 				<h2>About Me</h2>
 
-				<p>My name is Mikael Walters. I am currently a student attending The Coding Bootcamp at UT Austin studying web development.</p>
+				<div class="picture">
+					<img src="assets/images/Who'sWhoPicture.jpg" alt="Mikael Walters Picture">
+				</div>
 
-				<p>For the past 7 years, I was an analyst in the financial services industry specializing in data and performance analysis. These roles have grown my problem solving and analytical skills, and has allowed me to work in large collaborative teams supporting major projects.</p>
+				<section>
+					<p>My name is Mikael Walters. I am currently a student attending The Coding Bootcamp at UT Austin studying web development.</p>
 
-				<p>Upon successful completion of The Coding Bootcamp at UT Austin, I intend to utilize my analytical skills acquired from my professional career, and my BBA in Entrepreneurship and Venture Management from the University of Oklahoma to pursue a career in a technology startup.</p> 
-			</section>
+					<br>
 
-			<section id="social-media">
-				<h2>Connect with Me</h2>
+					<p>For the past 7 years, I was an analyst in the financial services industry specializing in data and performance analysis. These roles have grown my problem solving and analytical skills, and has allowed me to work in large collaborative teams supporting major projects.</p>
 
-				<ul>
-					<li><a href="https://github.com/mwalt09" target="_blank"><img src="assets/images/GitHub-Mark-64px.png"</a></li>
-					<li><a href="https://www.linkedin.com/in/mikaelwalters/" target="_blank"><img src="assets/images/In-2C-66px-R.png"></a></li>
-					<li><a href="https://stackoverflow.com/users/7881551/mwalt09?tab=profile" target="_blank"><img src="assets/images/so-icon.png"></a></li>
-				</ul>
-			</section>
+					<br>
 
-			<footer>
-				&#9400 Copyright 2017 Mikael Walters
-			</footer>
+					<p>Upon successful completion of The Coding Bootcamp at UT Austin, I intend to utilize my analytical skills acquired from my professional career, and my BBA in Entrepreneurship and Venture Management from the University of Oklahoma to pursue a career in a technology startup.</p> 
+				</section>
+			</div>
+
+			<div class="connect">
+				<section class="social-media">
+						<h2>Connect with Me</h2>
+
+					<ul class="logos">
+						<li id="one"><a href="https://github.com/mwalt09" target="_blank"><img src="assets/images/GitHub-Mark-64px.png" alt="github link"></a></li>
+						<li id="two"><a href="https://www.linkedin.com/in/mikaelwalters/" target="_blank"><img src="assets/images/In-2C-66px-R.png" alt="linkedin link"></a></li>				 
+						<li id="three"><a href="https://stackoverflow.com/users/7881551/mwalt09?tab=profile" target="_blank"><img src="assets/images/so-icon.png" alt="stackoverflow link"></a></li>
+					</ul>
+				</section>
+			</div>
 		</div>
+
+		<footer>
+			&#9400; Copyright 2017 Mikael Walters
+		</footer>
+
 	</body>
 </html>
