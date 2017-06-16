@@ -7,6 +7,8 @@ body {
 	background-color: #D7DBDD;
 	margin: 0 auto;
 	line-height: 1.5;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 h1 {
@@ -62,13 +64,13 @@ nav {
 	border-bottom: 2px solid #cccccc;
 	width: 100%;
 	list-style-type: none;
-	padding-left: 900px;
+	padding-left: 860px;
 }
 
 nav li {
 	display: inline-block;
 	margin-top: 30px;
-	padding-right: 5px;
+	padding: 0 12px 0 12px;
 	left: 900px;
 	border-right: 1px solid black;
 }
@@ -289,6 +291,7 @@ textarea {
 
 footer {
 	clear: both;
+	color: white;
 	background-color: #666666;
 	height: 20px;
 	text-align: center;
